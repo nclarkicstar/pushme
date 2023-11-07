@@ -1,0 +1,60 @@
+/* App.css */
+.App {
+  font-family: "Courier New", monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  background-color: #000;
+  color: #00ff00;
+}
+
+.input-group {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.input,
+.button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 5px;
+  color: #00ff00;
+}
+
+.input {
+  border: 1px solid #00ff00;
+  width: 250px;
+  background-color: #000;
+}
+
+.button {
+  background-color: black;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: #008000;
+}
+
+/* Add other styles as needed */
